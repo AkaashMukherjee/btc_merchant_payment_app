@@ -1,0 +1,21 @@
+<html>   
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="js/index.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/index.css">
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+      <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+   </head>
+   <body>
+      <div style = "margin-top:2%; margin-left:5%; margin-right:5%; text-align: center">
+         <h2> Bienvenue chez les entreprises Jean Tremblay </h2>      
+         <h2> Veuilez saisir le montant que le client payera </h2>
+      </br>
+            <input id="amount" type="text" placeholder="entrer le montant en CAD ici" style="text-align: center" />
+            <button id="getQR" onClick="getQR()" type="button">Générer code QR</button>
+            </br>
+            <img id="qrCodeImage" />
+   </div>
+   </body>
+</html>
